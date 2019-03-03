@@ -1,0 +1,27 @@
+
+body {
+  margin: 0px;
+  background-color: #042029;
+  color: #839496;
+}
+
+pre {
+  margin: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tag {
+  font-weight: 600;
+  color: #268bd2;
+}
+
+.symbols {
+  color: #586e75;
+}
+
+.value {
+  color: #269186;
+}
