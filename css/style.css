@@ -1,12 +1,25 @@
 
 body {
   margin: 0px;
-  background-color: #042029;
-  color: #839496;
 }
 
-pre {
+div {
   margin: 8px;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-size: 13px;
+}
+
+[contenteditable]:focus {
+  outline: 0px solid transparent;
+}
+
+span.line {
+  display: block;
+  white-space: pre;
+}
+
+span.line:hover {
+  opacity: 0.8;
 }
 
 a {
@@ -15,13 +28,4 @@ a {
 
 .tag {
   font-weight: 600;
-  color: #268bd2;
-}
-
-.symbols {
-  color: #586e75;
-}
-
-.value {
-  color: #269186;
 }

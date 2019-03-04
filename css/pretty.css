@@ -1,0 +1,30 @@
+
+body {
+  background-color: #282C35;
+  color: #DEE3EB;
+}
+
+span.line:hover {
+  background-color: #373a42;
+}
+
+.tag {
+  /*color: #DEE3EB;*/
+  color: #08667d;
+}
+
+.symbols {
+  color: #9c9c9c;
+}
+
+.eq_symbol {
+  color: #278792;
+}
+
+.attr {
+  color: #D8456F;
+}
+
+.value {
+  color: #92e6db;
+}
