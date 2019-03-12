@@ -9,6 +9,11 @@ div {
   font-size: 13px;
 }
 
+.anchor {
+  margin: 0px;
+  display: inline;
+}
+
 [contenteditable]:focus {
   outline: 0px solid transparent;
 }
