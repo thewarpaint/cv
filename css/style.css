@@ -4,9 +4,13 @@ body {
 }
 
 div {
-  margin: 8px;
+  margin: 0px 8px 0px 8px;
   font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
   font-size: 13px;
+}
+
+div:not(.anchor) {
+  float: left;
 }
 
 .anchor {
@@ -33,4 +37,22 @@ a {
 
 .tag {
   font-weight: 600;
+}
+
+#editor {
+  left: 50px;
+  position: absolute;
+}
+
+#line_numbers {
+  display: inline-block;
+  margin-top: 0px;
+  width: 50px;
+  text-align: right;
+}
+
+.line_number {
+  color: #838891;
+  padding-right: 10px;
+  text-align: right;
 }
